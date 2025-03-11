@@ -1,22 +1,43 @@
+/* App.css */
+
 .App {
-  background-color: #f7f7f7; /* 背景色を明るいグレーに */
-  min-height: 100vh;         /* 画面全体の高さを確保 */
+  background-color: #f0f0f0; /* 柔らかい背景色 */
+  min-height: 100vh;         /* 画面全体をカバー */
   display: flex;
-  flex-direction: column;
-  justify-content: center;   /* 垂直方向に中央揃え */
-  align-items: center;       /* 水平方向に中央揃え */
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-  padding: 0;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
-h1 {
-  color: #2c3e50;      /* タイトルの文字色 */
-  margin-bottom: 20px; /* タイトル下に余白を追加 */
+.puzzle-container {
+  background-color: #fff;                /* 白背景 */
+  border: 2px solid #ddd;                /* 薄いグレーの枠線 */
+  border-radius: 8px;                    /* 角を丸く */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);   /* ふんわりした影 */
+  padding: 30px;                         /* 内側の余白 */
+  width: 90%;
+  max-width: 600px;                      /* 幅の上限を設定 */
+  text-align: center;
 }
 
-p {
-  color: #34495e;      /* 説明文の文字色 */
-  font-size: 18px;     /* フォントサイズを大きめに */
-  line-height: 1.6;    /* 読みやすい行間を設定 */
+/* ボタンのスタイル */
+button {
+  background-color: #4CAF50; /* 緑色 */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049; /* ホバー時に少し濃い緑 */
+}
+
+/* タイトルやテキストの調整 */
+h1, h2, p {
+  margin: 10px 0;
 }
