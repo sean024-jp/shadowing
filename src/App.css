@@ -9,17 +9,6 @@
   padding: 20px;
 }
 
-.puzzle-container {
-  background-color: #fff;                /* 白背景 */
-  border: 2px solid #ddd;                /* 薄いグレーの枠線 */
-  border-radius: 8px;                    /* 角を丸く */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);   /* ふんわりした影 */
-  padding: 30px;                         /* 内側の余白 */
-  width: 90%;
-  max-width: 600px;                      /* 幅の上限を設定 */
-  text-align: center;
-}
-
 /* ボタンのスタイル */
 button {
   background-color: #4CAF50; /* 緑色 */
