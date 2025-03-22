@@ -1,0 +1,22 @@
+/* GameScreen.css */
+.game-screen {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .puzzle-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 20px auto;
+    max-width: 300px;
+  }
+  
+  .puzzle-piece {
+    background-color: #ddd;
+    border: 1px solid #bbb;
+    padding: 20px;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
