@@ -1,6 +1,91 @@
-# Getting Started with Create React App
+# Shadowing App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based language learning application designed to help users practice pronunciation through the "shadowing" technique. Shadowing is a language learning method where learners listen to audio and immediately repeat what they hear, mimicking the native speaker's pronunciation, rhythm, and intonation.
+
+This application provides a simple interface for Japanese speakers learning English. Users navigate through a flow of screens: from a welcome screen to a game screen where they perform shadowing exercises, and finally to a results screen that displays their performance score.
+
+## Features
+
+- Three-screen navigation flow:
+  - Home Screen: Introduction and start button
+  - Game Screen: Practice interface with shadowing exercises
+  - Result Screen: Performance score display
+- Smooth animated transitions between screens
+- Score tracking system
+- Japanese language interface targeting English learners
+
+## Technical Stack
+
+- React.js (v19.0.0)
+- React Router for navigation (v7.4.0)
+- React Transition Group for animations (v4.4.5)
+- Create React App foundation
+
+## Project Structure
+
+```
+shadowing/
+├── public/               # Static assets
+├── src/                  # Source code
+│   ├── App.js            # Main application component & routing
+│   ├── App.css           # Application styling
+│   ├── HomeScreen.js     # Landing page component
+│   ├── GameScreen.js     # Game screen component
+│   ├── ResultScreen.js   # Results screen component
+│   ├── index.js          # JavaScript entry point
+│   └── index.css         # Global styling
+└── package.json          # Dependencies and scripts
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository
+   ```
+   git clone https://github.com/sean024-jp/shadowing.git
+   cd shadowing
+   ```
+
+2. Install dependencies
+   ```
+   npm install
+   ```
+   or
+   ```
+   yarn install
+   ```
+
+### Development
+
+Run the app in development mode:
+```
+npm start
+```
+or
+```
+yarn start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+### Building for Production
+
+Build the app for production:
+```
+npm run build
+```
+or
+```
+yarn build
+```
+
+This builds the app for production to the `build` folder, optimized for best performance.
 
 ## Available Scripts
 
@@ -26,45 +111,3 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
